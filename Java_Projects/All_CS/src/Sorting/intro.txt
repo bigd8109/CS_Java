@@ -1,0 +1,100 @@
+Sorting
+The problem: given an array containing many values, permute the array so that those values are in order.
+
+You'll definitely be expected to have a high-level understanding of these and know the runtimes. Maybe you'll have to implement one.
+
+A common tool: swapping
+private static void swap(int[] array, int i, int j) {
+    int tmp = array[i];
+    array[i] = array[j];
+    array[j] = tmp;
+}
+
+Sorting: Selection Sort
+public static void selectionSort(int array[]) {
+    for (int i = 0; i < array.length; i++) {
+        int minIndex = i;
+        for (int j = i; j < array.length; j++) {
+            if (array[j] < array[minIndex]) {
+                minIndex = j;
+            }
+        }
+        swap(array, i, minIndex);
+    }
+}
+General Information
+
+O(n^2) performance
+O(1) space
+
+Sorting: Bubble Sort
+ public static void bubbleSort(int array[]) {
+     for (int i = 0; i < array.length; i++) {
+        for (int j = 0; j < array.length - 1; j++) {
+            if (array[j] > array[j + 1]) {
+                swap(array, j, j + 1);
+            }
+        }
+     }
+ }
+General information
+
+O(n^2) performance
+O(1) space
+
+Sorting: Merge sort
+Here's where I'm going to stop implementing things and just explain them. Wikipedia is great.
+
+1. Split the array in half and sort each subarray.
+2. Weave the arrays back together in one fluid pass.
+
+Merge sort is recursive.
+
+function mergeSort(A):
+    split A into A_beginning and A_end at the middle
+    mergeSort(A_beginning)
+    mergeSort(A_end)
+    return merge(A_beginning, A_end)
+General Information
+
+O(n log n) performance
+O(n) space
+
+Sorting: Quicksort
+function quickSort(A):
+    pick a "pivot" element in A
+    move all elements less than the pivot to the beginning of A
+    move all elements greater than the pivot to the end of A
+    put the pivot in the middle
+    quicksort the beginning of A recursively
+    quicksort the end of A recursively
+General Information
+
+O(n log n) performance
+Absolute worst case O(n^2) performance
+
+Sorting: Counting sort
+Comparison-based sorts can't be faster than n * log(n). BUT non-comparison based ones can. There are catches, though.
+
+public void countingSort(int[] array, int max) {
+    int[] counts = new int[max];
+    for (int i = 0; i < array.length; i++) {
+        counts[array[i] - 1]++;
+    }
+    int i = 0;
+    for (int j = 0; j < max; j++) {
+        while (counts[j] > 0) {
+            array[i++] = j + 1;
+        }
+    }
+}
+This is a prime example of how NOT to implement a hash map.
+
+Sorting: In General
+Anything slower than O(n^2) is not okay.
+
+O(n^2) sorting algorithms are generally simpler, easier to code, and require less auxillary space
+
+O(n log n) is the best comparison based sorting algorithm performance you can get (proven mathematically). These, however, tend to be more complicated and require more memory.
+
+Faster than O(n log n) sorting sorting usually makes at least one huge assumption about our data set (e.g. counting sort)

@@ -1,0 +1,48 @@
+// First-in first-out data structure
+public interface MyQueue {
+    // Add a value to the back of the queue
+    public void enqueue(int value);
+
+    // Remove a value from front of the queue
+    public int dequeue();
+
+    // See the value on the "front" of the queue (next to be removed)
+    public int peek();
+}
+
+MyStack a = ...; // [ ]
+a.enqueue(1); // [ 1 ]
+a.enqueue(2); // [ 1 2 ]
+a.peek(); // returns 1
+a.enqueue(3); // [ 1 2 3 ]
+a.dequeue(); // [ 2 3 ], returns 1
+a.enqueue(4); // [ 2 3 4 ]
+a.peek(); // returns 2
+
+        Array	List
+Enqueue	O(1)/O(n)	O(1)
+Dequeue	O(1)	O(1)
+Peek	O(1)	O(1)
+
+Queues: Standard Library
+  import java.util.Queue;
+  import java.util.ArrayDeque;
+
+  Queue<String> stack = new ArrayDeque<String>();
+
+
+ Given one queue and one stack, how do you reverse the stack?
+  Stack<Integer> stack = new Stack<Integer>();
+      Queue<Integer> queue = new ArrayDeque<Integer>();
+
+      stack.push(1);
+      stack.push(2);
+      stack.push(3);
+      System.out.println(stack); // [1, 2, 3]
+      while (!stack.isEmpty()) {
+          queue.add(stack.pop());
+      }
+      while (!queue.isEmpty()) {
+          stack.push(queue.remove());
+      }
+      System.out.println(stack); // [3, 2, 1]

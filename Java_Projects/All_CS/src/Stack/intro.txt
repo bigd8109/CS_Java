@@ -1,0 +1,57 @@
+// Last-in first-out data structure
+public interface MyStack {
+    // Add a value to the stack
+    public void push(int value);
+
+    // Remove a value from the stack
+    public int pop();
+
+    // See the value on the "top" of the stack (next to be removed)
+    public int peek();
+}
+
+MyStack a = ...; // [ ]
+a.push(1); // [ 1 ]
+a.push(2); // [ 2 1 ]
+a.peek(); // returns 2
+a.push(3); // [ 3 2 1 ]
+a.pop(); // [ 2 1 ], returns 3
+a.push(4); // [ 4 2 1 ]
+a.peek(); // returns 4
+
+        Array	List
+Push	O(1)/O(n)	O(1)
+Pop 	O(1)	O(1)
+Peek	O(1)	O(1)
+
+
+Stacks: Standard Library
+    Stack<Integer> a = new Stack<Integer>();
+
+    a.push(1);
+    a.push(2);
+    System.out.println(a.pop()); // 2
+    a.push(3);
+    System.out.println(a); // [1, 3]
+
+
+Write a function to determine if a string consisting of the characters '{', '}', '[', and ']' is balanced.
+
+For example, "{[]}" is balanced, and "{[}]" is not.
+
+    public static boolean isBalanced(String braces) {
+        Stack<Character> stack = new Stack<Character>();
+        for (int i = 0; i < braces.length(); i++) {
+            switch (braces.charAt(i)) {
+                case '{': stack.push('{');
+                    break;
+                case '[': stack.push('[');
+                    break;
+                case '}': if (stack.pop() != '{') { return false; }
+                    break;
+                case ']': if (stack.pop() != '[') { return false; }
+                    break;
+            }
+        }
+        return stack.isEmpty();
+    }

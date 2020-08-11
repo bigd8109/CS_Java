@@ -1,0 +1,64 @@
+// Attributes
+  public class Node {
+      public int value;
+      public Node next;
+
+      public Node(int value, Node next) {
+          this.value = value;
+          this.next = next;
+      }
+  }
+
+  // Methods
+  public interface MyList {
+      public int get(int index);
+
+      public void update(int index, int value);
+
+      public void append(int value);
+
+      public String toString();
+  }
+
+List Performance
+        Array	List
+Access	O(1)	O(n)
+Update	O(1)	O(n)
+Append	O(1)/O(n)	O(1)
+Traversal	O(n)	O(n)
+Always think about the performance of the data structure
+
+
+  Lists: Standard Library
+      import java.util.LinkedList;
+      import java.util.ArrayList;
+      import java.util.List;
+
+      // ...
+
+      List<Integer> a = new ArrayList<Integer>();
+      List<Integer> b = new LinkedList<Integer>();
+
+      for (int i = 0; i < 10; i++) {
+          a.add(i);
+          b.add(i);
+      }
+      a.set(5, 0);
+      b.remove(5);
+      System.out.println(a); // [0, 1, 2, 3, 4, 0, 6, 7, 8, 9]
+      System.out.println(b); // [0, 1, 2, 3, 4, 6, 7, 8, 9]
+
+Reverse a LinkedList
+      public static Node reverse(Node head) {
+            Node prev = null;
+            Node curr = head;
+            Node next;
+
+            while (curr != null ) {
+                next = curr.next;
+                curr.next = prev;
+                prev = curr;
+                curr = next;
+            }
+            return prev;
+        }

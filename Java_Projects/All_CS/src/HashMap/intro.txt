@@ -1,0 +1,103 @@
+Supported operations:
+
+insert()
+delete()
+find()
+Why is it so impressive? All of these operations can be done in constant O(1) time.
+
+Think of a hash map like a really really big array.
+
+array[0] = 1 // insert(): O(1)
+array[1] = null // delete(): O(1)
+x = array[2] // find(): O(1)
+An array that, instead of integer indexes, has indexes that can be anything.
+
+map["0"] -> 1
+map["Adam Cannon"] -> 1004
+map["BullsAndCows"] -> 9001
+map["thisisareallylongstringthatistoocoolomgomgomgomgomgomgadiadiadilove"] -> 0
+Insert, find, and delete are all O(1) now. That's it?
+No. :( An infinite size array for infinite possible indexes is unreasonable.
+
+As it turns out, however, there's a way to simplify anything (String, object, integer) into an integer
+
+This is called the Hash function: maps an object (of some type) to an integer.
+
+Example:
+
+x % 10027
+
+Hash function: maps an object (of some type) to an integer.
+
+Example:
+
+public int hash(String s) {
+    int hashVal = 0;
+    for (int i = 0; i < s.length(); i++) {
+        hashVal = s.charAt(i) + hashVal * 37;
+    }
+    return hashVal;
+}
+
+For insert():
+
+Take any thing X that maps to Y
+Simplify X into an integer i using a hash function
+Set array[i] = Y
+For find():
+
+Take any thing X that you want to find Y for.
+Simplify X into an integer i using the same hash function
+Set Y = array[i]
+
+Well, there are some problems with hash maps
+
+Requires a lot of extra memory and a good hash function to avoid collisions
+What is a "good" hash function?
+Finding max or min is kind of difficult
+But in general: excellent for what it can do.
+
+Hash Maps: Standard library
+import java.util.HashSet;
+import java.util.HashMap;
+
+// ...
+
+HashSet<String> set = new HashSet<String>();
+set.add("dog");
+set.add("cat");
+set.add("fish");
+System.out.println(set.contains("dog")); // true
+System.out.println(set.contains("horse")); // false
+
+HashMap<String, String> map = new HashMap<String, String>();
+map.put("Jenny", "867-5309");
+System.out.println(map.get("Jenny")); // 867-5309
+
+
+Implement a word counter (not case sensitive, and ignoring special characters).
+
+Example:
+
+"Gabba gabba hey, gabba gabba hey!" -> { "gabba": 4, "hey": 2 }
+import java.util.HashMap;
+
+public static HashMap<String, Integer> countWords(String document) {
+    HashMap<String, Integer> counts = new HashMap<String, Integer>();
+    for (String word : document.split(" ")) {
+        String key = word.toLowerCase().replaceAll("[^a-zA-Z]", "");
+        if (counts.containsKey(key)) {
+            counts.put(key, counts.get(key) + 1);
+        } else {
+            counts.put(key, 1);
+        }
+    }
+    return counts;
+}
+
+Other Hash-y Things
+Hashtables, HashSets, Dictionaries (Python)
+
+Slight variations, but all revolve around the same idea of index simplification via a hash function for constant time insert, delete, and find.
+
+If you are really interested, lookup how to resolve hash map collisions or textbook hash functions

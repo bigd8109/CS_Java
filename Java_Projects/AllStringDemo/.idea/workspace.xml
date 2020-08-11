@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="20e378a8-9153-42b7-8209-653397352916" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ReserveString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/All_CS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Arrays/MergedSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Arrays/ShuffleArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Arrays/SortEvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Arrays/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Binary/DecimalToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactoryPattern/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactoryPattern/AbstractFactoryPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactoryPattern/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactoryPattern/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactoryPattern/Boat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactoryPattern/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactoryPattern/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactoryPattern/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactoryPattern/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactoryPattern/VehicleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactory_Pattern/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactory_Pattern/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactory_Pattern/AnimalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactory_Pattern/BlackColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactory_Pattern/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactory_Pattern/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactory_Pattern/ColorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactory_Pattern/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactory_Pattern/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactory_Pattern/FactoryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/AbstractFactory_Pattern/WhiteColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Adapter_Pattern/AdvanceMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Adapter_Pattern/MediaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Adapter_Pattern/MediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Adapter_Pattern/Mp4Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Adapter_Pattern/VlcPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/CallbackPattern/CallbackPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/CallbackPattern/EventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/CallbackPattern/EventNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/CallbackPattern/EventReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/FactoryPattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/FactoryPattern/FactoryPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/FactoryPattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/FactoryPattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/FactoryPattern/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/FactoryPattern/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Factory_Pattern/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Factory_Pattern/AnimalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Factory_Pattern/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Factory_Pattern/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Factory_Pattern/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/ObserverPattern/ObserverPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/ObserverPattern/StockCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/ObserverPattern/StockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/ObserverPattern/StockGrab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Observer_Pattern/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Observer_Pattern/HexObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Observer_Pattern/OctalObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Observer_Pattern/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Observer_Pattern2/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Observer_Pattern2/HexObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Observer_Pattern2/OctalObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Observer_Pattern2/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Singleton_Pattern/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DesignPattern/Singleton_Pattern/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/DynamicProgramming/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Graph/intro.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/HashMap/intro.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Heap/MinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Heap/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/LinkedList/Intro.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/LinkedList/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/LinkedList/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/LinkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/OOP/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/OOP/Polymorphism/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/OOP/Polymorphism/PolimorphismDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/OOP/Polymorphism/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/OOP/Polymorphism/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/OOP/Polymorphism/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Queue/intro.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Recursion/ArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Recursion/MakeCoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Recursion/PowerX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Recursion/ReverseStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Recursion/SumOfSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Search/BinarySearch/BinarySearchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Sorting/AbstractSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Sorting/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Sorting/SortingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Sorting/TestCollectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Sorting/intro.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Stack/intro.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/String/IsUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/String/ReserveString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/String/Sam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/String/StringReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/SystemDesign/ValetParkingSystem/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/SystemDesign/ValetParkingSystem/ValetParkingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/SystemDesign/ValetParkingSystem/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/TMP/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../All_CS/src/Trees/intro.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkedListDemo/LinkedListDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedListDemo/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedListDemo/bin/com/linkedlist/test/LinkedListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedListDemo/bin/com/linkedlist/test/LinkedListDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedListDemo/bin/com/linkedlist/test/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedListDemo/bin/com/linkedlist/test/Node.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-193075964">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="586" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="586" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ReserveString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/ReserveString.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AllStringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AllStringDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AllStringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AllStringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584148881793" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="AllStringDemo" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20e378a8-9153-42b7-8209-653397352916" name="Default Changelist" comment="" />
+      <created>1583516002930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583516002930</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2771673" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReserveString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

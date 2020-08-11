@@ -1,0 +1,97 @@
+public class Node {
+    public int value;
+    public Node left;
+    public Node right;
+
+    public Node(int value, Node left, Node right) {
+        this.value = value;
+        this.left = left;
+        this.right = right;
+    }
+
+    public Node(int value) {
+        this(value, null, null);
+    }
+}
+
+
+These are mad useful. Can represent hierarchical data: parse trees in NLP, database indexes, etc.
+
+Fast Vocabulary
+
+Root – The top node in a tree.
+Parent – The converse notion of child.
+Siblings – Nodes with the same parent.
+Descendant – a node reachable by repeated proceeding from parent to child.
+Ancestor – a node reachable by repeated proceeding from child to parent.
+Leaf – a node with no children.
+Edge – connection between one node to another.
+Path – a sequence of nodes and edges connecting a node with a descendant.
+Level – The level of a node is defined by 1 + the number of connections between the node and the root.
+Height – The height of a node is the number of edges on the longest downward path between the root and a leaf.
+
+Trees: Binary Search Tree
+Binary Search Tree: every value in the left subtree of a node with a value is less than that value; every value in the right subtree of a node with a value is greater than that value.
+
+This gives us O(log(n)) retrieval (in the average but not worst case; more on that later).
+
+public boolean find(Node root, int value) {
+    if (root == null) {
+        return false;
+    }
+    if (value < root.value) {
+        return find(root.left, value);
+    } else if (value > root.value) {
+        return find(root.right, value);
+    } else {
+        return true;
+    }
+}
+
+
+Worst Case: Unbalanced Tree
+
+Trees: Traversal
+We can traverse the tree in one of a few ways.
+
+Pre-Order (XLR)
+In-Order (LXR)
+Post-Order (LRX)
+
+
+How do we do a level-order traversal of a tree?
+public void levelOrder(Node root) {
+    Queue<Node> queue = new Queue<Node>();
+    queue.add(root);
+    while (!queue.isEmpty()) {
+        Node curr = queue.remove();
+        System.out.println(curr.value);
+        if (curr.left != null) {
+            queue.add(curr.left);
+        }
+        if (curr.right != null) {
+            queue.add(curr.right);
+        }
+    }
+}
+
+Trees: Heap
+A Priority Queue is an ADT is a list where each element has a "priority" associated with it.
+
+Operations:
+
+insert_with_priority()
+pull_highest_priority_element()
+
+The maximally efficient way to implement this ADT is with a heap (O(log n) performance for both operations)
+
+Heap Property: Parents are always more important than their children
+To add an element: insert and reorder the tree (O(log n))
+
+To pull the highest priority element: pop the root out and reorder the tree (O(log n))
+AVL Trees (Trees that always stay balanced using rotation)
+
+Red-Black Trees (Trees that always stay balanced using colors (fun!))
+
+B-Trees (Trees designed for lots of data)
+
